@@ -45,42 +45,42 @@ int main()
     //Ler primeira carta
     printf("Entre com os valores da primeira carta:");
     printf("\n\tEstado:");
-      scanf_s("%1c", &estado1, 1);
+      scanf("%1c", &estado1, 1);
     printf("\tCodigo:");
-      scanf_s("%3s", codCarta1,4);
+      scanf("%3s", codCarta1,4);
     printf("\tNome da cidade:");
-      scanf_s("%39s", nomeCidade1, 40);
+      scanf("%39s", nomeCidade1, 40);
     printf("\tPopulacao:");
-      scanf_s("%i", &populacao1);
+      scanf("%i", &populacao1);
     printf("\tArea:");
-      scanf_s("%f", &area1);
+      scanf("%f", &area1);
     printf("\tPIB:");
-      scanf_s("%f", &pib1);
+      scanf("%f", &pib1);
     printf("\tNumero de pontos turisticos:");
-      scanf_s("%i", &qtdPontosTuristicos1);
+      scanf("%i", &qtdPontosTuristicos1);
 
       //quebrar leitura automatica
       char lixo;
-      scanf_s("%c", &lixo, 1);
+      scanf("%c", &lixo, 1);
 
 
     
     //Ler segunda carta
     printf("\nEntre com os valores da segunda carta:\n");
     printf("\tEstado:");
-      scanf_s("%1c", &estado2, 1);
+      scanf("%1c", &estado2, 1);
     printf("\tCodigo:");
-      scanf_s("%3s", codCarta2, 4);
+      scanf("%3s", codCarta2, 4);
     printf("\tNome da cidade:");
-      scanf_s("%39s", nomeCidade2, 40);
+      scanf("%39s", nomeCidade2, 40);
     printf("\tPopulacao:");
-      scanf_s("%i", &populacao2);
+      scanf("%i", &populacao2);
     printf("\tArea:");
-      scanf_s("%f", &area2);
+      scanf("%f", &area2);
     printf("\tPIB:");
-      scanf_s("%f", &pib2);
+      scanf("%f", &pib2);
     printf("\tNumero de pontos turisticos:");
-      scanf_s("%i", &qtdPontosTuristicos2);
+      scanf("%i", &qtdPontosTuristicos2);
 
 
 
