@@ -53,7 +53,7 @@ int main()
 
       //quebrar leitura automatica
       char lixo;
-      scanf_s("%c", &lixo, 1);
+      scanf("%c", &lixo, 1);
 
 
     
