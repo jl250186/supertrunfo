@@ -65,7 +65,7 @@ int main()
 
   // quebrar leitura automatica
   char lixo;
-  scanf_s("%c", &lixo, 1);
+  scanf("%c", &lixo, 1);
 
   // Ler segunda carta
   printf("\nEntre com os valores da segunda carta:\n");
